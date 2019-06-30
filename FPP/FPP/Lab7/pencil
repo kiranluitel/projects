@@ -1,0 +1,5 @@
+1. Answer: d.Stack overflow exception(assuming RandomNumbers.getRandomInt() gives a random integer): The string passed to the recurse() function can never be null and hence the functions 
+runs until stack is overflowed. But if RandomNumbers.getRandomInt() is not defined then answer is  compiler error(a).
+
+2Answer: d. Stack overflow exception: permute("hello") never returns null or "" hence no return condition can be achieved causing
+stack overflow exception.
