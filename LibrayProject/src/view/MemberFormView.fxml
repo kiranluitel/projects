@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MemberFormController">
+   <bottom>
+      <Pane prefHeight="504.0" prefWidth="743.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="504.0" prefWidth="183.0" style="-fx-background-color: #2a324b;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="113.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutY="92.0" mnemonicParsing="false" onAction="#btnMember_Click" prefHeight="42.0" prefWidth="212.0" stylesheets="@style.css" text="Member" textFill="#e7e5e5">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icons8_Home_32px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="-1.0" layoutY="143.0" mnemonicParsing="false" onAction="#btnLibrarian_Click" prefHeight="42.0" prefWidth="210.0" stylesheets="@style.css" text="Librarian" textFill="#e7e5e5">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icons8_Home_32px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutY="194.0" mnemonicParsing="false" onAction="#btnAdministrator_Click" prefHeight="42.0" prefWidth="210.0" stylesheets="@style.css" text="Administrator" textFill="#e7e5e5">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icons8_Home_32px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="-2.0" layoutY="245.0" mnemonicParsing="false" onAction="#btnBook_Click" prefHeight="42.0" prefWidth="212.0" stylesheets="@style.css" text="Book" textFill="#e7e5e5">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icons8_Home_32px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="-2.0" layoutY="358.0" mnemonicParsing="false" onAction="#btnAdd_Click" prefHeight="42.0" prefWidth="212.0" stylesheets="@style.css" text="Add" textFill="#e7e5e5">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icons8_Home_32px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="-2.0" layoutY="407.0" mnemonicParsing="false" onAction="#btnEdit_Click" prefHeight="42.0" prefWidth="212.0" stylesheets="@style.css" text="Edit" textFill="#e7e5e5">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icons8_Home_32px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <ImageView fitHeight="37.0" fitWidth="60.0" layoutX="45.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryAddMember.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="42.0" fitWidth="64.0" layoutX="43.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryLibrarian.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="54.0" layoutX="51.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryAdministrator.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="44.0" fitWidth="75.0" layoutX="42.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryBook.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="71.0" layoutX="41.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryAdd.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="32.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryEdit.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="98.0" fitWidth="207.0" layoutX="15.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryLogoNew.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="210.0" prefHeight="504.0" prefWidth="534.0" style="-fx-background-color: #e1e5ee;">
+               <children>
+                  <Text layoutX="28.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome " wrappingWidth="239.70306396484375">
+                     <font>
+                        <Font name="Symbol" size="29.0" />
+                     </font>
+                  </Text>
+                  <Line endX="341.4000244140625" layoutX="131.0" layoutY="93.0" startX="-100.0" />
+                  <TextField fx:id="txtFirstName" layoutX="31.0" layoutY="136.0" />
+                  <TextField fx:id="txtLastName" layoutX="31.0" layoutY="187.0" />
+                  <TextField fx:id="txtNuPhone" layoutX="31.0" layoutY="243.0" />
+                  <Text layoutX="32.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firstname" />
+                  <Text layoutX="31.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lastname" />
+                  <Text layoutX="32.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No." />
+                  <TextField fx:id="txtID" layoutX="361.0" layoutY="54.0" prefHeight="26.0" prefWidth="51.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </TextField>
+                  <Text layoutX="361.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+                  <TextField fx:id="txtStreet" layoutX="267.0" layoutY="138.0" />
+                  <Text layoutX="269.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Street" />
+                  <TextField fx:id="txtState" layoutX="267.0" layoutY="189.0" />
+                  <Text layoutX="268.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="State" />
+                  <TextField fx:id="txtZip" layoutX="267.0" layoutY="245.0" />
+                  <TextField fx:id="txtCity" layoutX="267.0" layoutY="305.0" />
+                  <Text layoutX="269.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zip" />
+                  <Text layoutX="270.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City" />
+                  <Button layoutX="421.0" layoutY="54.0" mnemonicParsing="false" onAction="#btnSearch_Click" text="Search" />
+                  <Text layoutX="28.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Member Details">
+                     <font>
+                        <Font name="Sylfaen" size="26.0" />
+                     </font></Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

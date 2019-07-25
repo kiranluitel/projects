@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BothController">
+   <bottom>
+      <Pane prefHeight="504.0" prefWidth="743.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="504.0" prefWidth="183.0" style="-fx-background-color: #2a324b;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="113.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutY="92.0" mnemonicParsing="false" onAction="#btnMember_Click" prefHeight="42.0" prefWidth="212.0" stylesheets="@style.css" text="Member" textFill="#e7e5e5">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="-1.0" layoutY="143.0" mnemonicParsing="false" onAction="#btnLibrarian_Click" prefHeight="42.0" prefWidth="210.0" stylesheets="@style.css" text="Librarian" textFill="#e7e5e5">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutY="194.0" mnemonicParsing="false" onAction="#btnAdministrator_Click" prefHeight="42.0" prefWidth="210.0" stylesheets="@style.css" text="Administrator" textFill="#e7e5e5">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="-2.0" layoutY="245.0" mnemonicParsing="false" onAction="#btnBook_Click" prefHeight="42.0" prefWidth="212.0" stylesheets="@style.css" text="Book" textFill="#e7e5e5">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <ImageView fitHeight="92.0" fitWidth="192.0" layoutX="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryLogoNew.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="177.0" fitWidth="255.0" layoutX="-22.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibraryDashboard.png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutY="297.0" mnemonicParsing="false" onAction="#btnSearchMember_Click" prefHeight="42.0" prefWidth="212.0" stylesheets="@style.css" text="Search Member" textFill="#e7e5e5">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <ImageView fitHeight="29.0" fitWidth="44.0" layoutX="11.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@LibrarySearch2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="209.0" prefHeight="504.0" prefWidth="534.0" style="-fx-background-color: #e1e5ee;">
+               <children>
+                  <Text layoutX="30.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Admin" wrappingWidth="204.50311279296875">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Text>
+                  <Line endX="341.4000244140625" layoutX="131.0" layoutY="93.0" startX="-100.0" />
+                  <Label fx:id="lbnuMember" layoutX="73.0" layoutY="116.0" text="7" textFill="#2a73ff">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="47.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Members">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="lbnuLibrarian" layoutX="178.0" layoutY="116.0" text="343" textFill="#2a73ff">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="167.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Librarians">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Line endX="-100.0" endY="54.5" layoutX="242.0" layoutY="118.0" startX="-100.0" />
+                  <Line endX="-100.0" endY="53.5" layoutX="366.0" layoutY="118.0" startX="-100.0" />
+                  <Line endX="383.20001220703125" layoutX="124.0" layoutY="116.0" startX="-100.0" />
+                  <Label fx:id="lbnuBook" layoutX="308.0" layoutY="116.0" text="12" textFill="#2a73ff">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="302.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Books">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Line endX="-100.0" endY="53.5" layoutX="491.0" layoutY="118.0" startX="-100.0" />
+                  <Label fx:id="lbnuAdministrotor" layoutX="427.0" layoutY="116.0" text="135" textFill="#2a73ff">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="398.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrators">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Line endX="385.4000244140625" layoutX="124.0" layoutY="172.0" startX="-100.0" />
+                  <Text layoutX="30.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+                     <font>
+                        <Font name="Sylfaen" size="26.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="37.0" fitWidth="60.0" layoutX="-2.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LibraryAddMember.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="64.0" layoutX="-4.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LibraryLibrarian.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="54.0" layoutX="4.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LibraryAdministrator.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="75.0" layoutX="-5.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LibraryBook.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>
